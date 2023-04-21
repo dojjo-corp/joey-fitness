@@ -1,0 +1,109 @@
+body {
+    text-align: center;
+}
+
+.card-head {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+hr {
+    background-color: transparent;
+    border-top: 15px dashed black;
+    /* border-width: 20px; */
+    border-left:none ;
+    border-right: none;
+    border-bottom: none;
+    width: 20%;
+    margin: 10% auto;
+}
+.section-title {
+    margin: 80px 0;
+}
+
+.carousel {
+    margin-top: 50px;
+}
+/* NAVBAR */
+header {
+    background-color: rgb(217, 215, 250);
+    padding: 0 2%;
+    position: sticky;
+}
+#logo {
+    text-align: left;
+}
+nav{
+    text-align: right;  
+}
+nav a {
+    color: black;
+    padding: 0 2%;
+    text-decoration: none;
+    margin-left: 5px;
+}
+nav a:hover {
+    color: black;
+    border: 1px solid rgb(109, 123, 138);
+    border-radius: 5px;
+}
+
+/* welcome */
+#welcome-section {
+    border: 3px solid grey;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin-top: 100px;
+}
+#welcome-text {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* PROGRAMS */
+.program-title {
+    color: rgb(63, 62, 62);
+    margin: 50px 0;
+}
+.program-title:hover {
+    text-decoration: underline grey;
+    text-decoration-thickness: 5px;
+}
+
+td p, span {
+    margin-left: 50px;
+}
+
+.carousel h5, p {
+    margin-top: 20px;
+}
+
+td img {
+    width: 60%;
+}
+
+/* CONTACT PAGE */
+#contact-form {
+    border: 1px solid rgb(85, 84, 84);
+    border-radius: 10px;
+    padding: 2%;
+    text-align: left;
+    margin: 15% auto 15%;
+    width: 450px;
+}
+
+label {
+    font-size: 16px;
+    font-weight: 500;
+}
+input, textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+}
+/* FOOTER */
+footer {
+    background-color: rgb(217, 215, 250);
+    padding: 70px;
+}
